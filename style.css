@@ -489,9 +489,11 @@ li {
     position: relative;
 }
 
-.content .left-side .details {
+.content .left-side .detail {
     margin: 14px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .left-side img {
@@ -535,7 +537,7 @@ li {
     margin-top: 12px;
 }
 
-.right-side .button input[type="button"] {
+.right-side .button input[type="submit"] {
     color: #FFFFFF;
     font-size: 18px;
     outline: none;
@@ -547,7 +549,7 @@ li {
     transition: all 0.3s ease;
 }
 
-.button input[type="button"]:hover {
+.button input[type="submit"]:hover {
     background: #444343;
 }
 
